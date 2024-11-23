@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width , initial-scale=1.0">
+       <title>Login page</title> 
+       <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        
+        <h1 id="form-heading">SCRATCH GAME</h1>
+
+        <div id="login-form" >
+            <h2>Login/Register</h2>
+            <form id="login"  action="">
+
+                <label for="first_name">First name:</label>
+                <input id="first_name" name="first_name" type="text" required>
+
+                <label for="last_name"> Last name:</label>
+                <input id="last_name" name="last_name" type="text" required>
+
+                <label for="date_of_birth">Date Of Birth:</label>
+                <input id="date_of_birth" name= "date_of_birth" type="date" required>
+
+                <label for="email">Email address:</label>
+                <input id="email" name="email" type="email" required>
+
+        
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+
+                <label for="user_id">User ID:</label>
+                <input id="user_id" name="user_id" type="number" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+                
+                <div id="auth-buttons">
+                   <button id="register-button" type="submit">REGISTER</button>
+                   <button  id="login-button" type="submit">LOGIN</button>
+                </div>
+            </form>
+
+        </div>
+    
+        <script src="script.js"></script>
+           
+    </body>
+
+    <footer>
+        <p>&copy; 2024 Scratch Game. All rights reserved.</p>
+      </footer>
+
+    
+
+</html>
